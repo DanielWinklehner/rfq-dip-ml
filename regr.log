@@ -1,0 +1,12 @@
+xfile      = xdata.dat 
+yfile      = ydata.dat 
+basistype  = PC_MI 
+method     = lsq 
+intpar     = 7 
+dblpar     = 0 
+strpar     = LU 
+msc        = ms 
+xcheckfile  = xcheck.dat 
+Dimensionality 6
+Number of bases 1716
+Sigma2 = 0.0332194

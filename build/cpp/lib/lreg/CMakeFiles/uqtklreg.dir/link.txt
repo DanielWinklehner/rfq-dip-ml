@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtklreg.a  CMakeFiles/uqtklreg.dir/lreg.cpp.o
+/usr/bin/ranlib libuqtklreg.a

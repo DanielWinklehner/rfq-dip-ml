@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtkgproc.a  CMakeFiles/uqtkgproc.dir/gproc.cpp.o
+/usr/bin/ranlib libuqtkgproc.a

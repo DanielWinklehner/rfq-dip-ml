@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtklowrank.a  CMakeFiles/uqtklowrank.dir/lowrank.cpp.o
+/usr/bin/ranlib libuqtklowrank.a

@@ -1,0 +1,96 @@
+Determining if the Fortran sgemm exists failed with the following output:
+Change Dir: /home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27387/fast && /usr/bin/make -f CMakeFiles/cmTC_27387.dir/build.make CMakeFiles/cmTC_27387.dir/build
+make[1]: Entering directory '/home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_27387.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_27387.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_27387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27387.dir/link.txt --verbose=1
+/usr/bin/gfortran      CMakeFiles/cmTC_27387.dir/testFortranCompiler.f.o  -o cmTC_27387 
+/usr/bin/ld: CMakeFiles/cmTC_27387.dir/testFortranCompiler.f.o: in function `MAIN__':
+testFortranCompiler.f:(.text+0xa): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_27387.dir/build.make:87: cmTC_27387] Error 1
+make[1]: Leaving directory '/home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_27387/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d3e2/fast && /usr/bin/make -f CMakeFiles/cmTC_3d3e2.dir/build.make CMakeFiles/cmTC_3d3e2.dir/build
+make[1]: Entering directory '/home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d3e2.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3d3e2.dir/src.c.o   -c /home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3d3e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3e2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_3d3e2.dir/src.c.o  -o cmTC_3d3e2 
+/usr/bin/ld: CMakeFiles/cmTC_3d3e2.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_3d3e2.dir/build.make:87: cmTC_3d3e2] Error 1
+make[1]: Leaving directory '/home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3d3e2/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19cc2/fast && /usr/bin/make -f CMakeFiles/cmTC_19cc2.dir/build.make CMakeFiles/cmTC_19cc2.dir/build
+make[1]: Entering directory '/home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19cc2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_19cc2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19cc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19cc2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_19cc2.dir/CheckFunctionExists.c.o  -o cmTC_19cc2  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_19cc2.dir/build.make:87: cmTC_19cc2] Error 1
+make[1]: Leaving directory '/home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_19cc2/fast] Error 2
+
+
+
+Determining if the Fortran cheev exists failed with the following output:
+Change Dir: /home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a29cb/fast && /usr/bin/make -f CMakeFiles/cmTC_a29cb.dir/build.make CMakeFiles/cmTC_a29cb.dir/build
+make[1]: Entering directory '/home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_a29cb.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_a29cb.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_a29cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a29cb.dir/link.txt --verbose=1
+/usr/bin/gfortran      CMakeFiles/cmTC_a29cb.dir/testFortranCompiler.f.o  -o cmTC_a29cb  /usr/lib/x86_64-linux-gnu/libblas.so 
+/usr/bin/ld: CMakeFiles/cmTC_a29cb.dir/testFortranCompiler.f.o: in function `MAIN__':
+testFortranCompiler.f:(.text+0xa): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a29cb.dir/build.make:88: cmTC_a29cb] Error 1
+make[1]: Leaving directory '/home/loyd/ML_RFQ/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a29cb/fast] Error 2
+
+
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtktmcmc.a  CMakeFiles/uqtktmcmc.dir/tmcmc.cpp.o
+/usr/bin/ranlib libuqtktmcmc.a

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loyd/ML_RFQ/UQTk/dep/lbfgs/lbfgsDR.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+math.h
+-
+lbfgs_routines.h
+/home/loyd/ML_RFQ/UQTk/dep/lbfgs/lbfgs_routines.h
+
+/home/loyd/ML_RFQ/UQTk/dep/lbfgs/lbfgs_routines.h
+ftndefs.h
+/home/loyd/ML_RFQ/UQTk/dep/lbfgs/ftndefs.h
+
+UQTk/cpp/lib/include/ftndefs.h
+

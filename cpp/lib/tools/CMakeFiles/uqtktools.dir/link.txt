@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtktools.a  CMakeFiles/uqtktools.dir/toolsf.f.o CMakeFiles/uqtktools.dir/combin.cpp.o CMakeFiles/uqtktools.dir/func.cpp.o CMakeFiles/uqtktools.dir/gq.cpp.o CMakeFiles/uqtktools.dir/minmax.cpp.o CMakeFiles/uqtktools.dir/multiindex.cpp.o CMakeFiles/uqtktools.dir/pcmaps.cpp.o CMakeFiles/uqtktools.dir/probability.cpp.o CMakeFiles/uqtktools.dir/rosenblatt.cpp.o
+/usr/bin/ranlib libuqtktools.a

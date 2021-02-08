@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtkbcs.a  CMakeFiles/uqtkbcs.dir/bcs.cpp.o
+/usr/bin/ranlib libuqtkbcs.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdeplbfgs.a  CMakeFiles/deplbfgs.dir/lbfgsDR.c.o CMakeFiles/deplbfgs.dir/lbfgs_routines.f.o
+/usr/bin/ranlib libdeplbfgs.a

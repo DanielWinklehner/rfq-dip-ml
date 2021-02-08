@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtkkle.a  CMakeFiles/uqtkkle.dir/kle.cpp.o
+/usr/bin/ranlib libuqtkkle.a

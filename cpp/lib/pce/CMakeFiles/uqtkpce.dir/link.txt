@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtkpce.a  CMakeFiles/uqtkpce.dir/PCBasis.cpp.o CMakeFiles/uqtkpce.dir/PCSet.cpp.o
+/usr/bin/ranlib libuqtkpce.a

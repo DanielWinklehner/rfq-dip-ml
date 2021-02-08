@@ -1,0 +1,24 @@
+ArrayReadAndWrite 1 0.00436953
+ArrayDelColumn 1 0.128561
+Array1DMiscTest 1 0.00533038
+Array2DMiscTest 1 0.0061291
+ArraySortTest 1 0.0057871
+MultiIndexTest 1 0.00535264
+CorrTest 1 4.32932
+QuadLUTest 1 0.00918339
+TMCMC2dTest 1 1.41079
+MCMC2dTest 1 0.483603
+MCMCRandomTest 1 0.00623262
+MCMCNestedTest 1 0.0433944
+Deriv1dTest 1 0.00554984
+SecondDeriv1dTest 1 0.00485024
+GradHessianTest 1 0.00493566
+GradientPCETest 1 0.00637631
+PCE1dTest 1 0.00500748
+PCEImplTest 1 0.0445229
+PCELogTest 1 0.00827694
+Hessian2dTest 1 0.00866659
+BCS1dTest 1 0.00490322
+BCS2dTest 1 0.0078771
+LowRankRegrTest 1 0.0120074
+---

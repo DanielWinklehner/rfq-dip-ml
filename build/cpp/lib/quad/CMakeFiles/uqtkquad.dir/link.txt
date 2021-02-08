@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtkquad.a  CMakeFiles/uqtkquad.dir/quad.cpp.o
+/usr/bin/ranlib libuqtkquad.a

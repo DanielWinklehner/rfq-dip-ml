@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtkxmlutils.a  CMakeFiles/uqtkxmlutils.dir/XMLAttributeList.cpp.o CMakeFiles/uqtkxmlutils.dir/XMLElement.cpp.o CMakeFiles/uqtkxmlutils.dir/XMLExpatParser.cpp.o CMakeFiles/uqtkxmlutils.dir/XMLParser.cpp.o CMakeFiles/uqtkxmlutils.dir/XMLUtils.cpp.o
+/usr/bin/ranlib libuqtkxmlutils.a

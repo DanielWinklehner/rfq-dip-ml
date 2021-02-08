@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtkinfer.a  CMakeFiles/uqtkinfer.dir/inference.cpp.o CMakeFiles/uqtkinfer.dir/mrv.cpp.o CMakeFiles/uqtkinfer.dir/post.cpp.o
+/usr/bin/ranlib libuqtkinfer.a

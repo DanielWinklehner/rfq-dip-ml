@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdepfigtree.a  CMakeFiles/depfigtree.dir/KCenterClustering.cpp.o CMakeFiles/depfigtree.dir/figtree.cpp.o
+/usr/bin/ranlib libdepfigtree.a

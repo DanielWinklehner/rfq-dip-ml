@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtkarray.a  CMakeFiles/uqtkarray.dir/arrayio.cpp.o CMakeFiles/uqtkarray.dir/arraytools.cpp.o
+/usr/bin/ranlib libuqtkarray.a

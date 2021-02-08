@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loyd/ML_RFQ/UQTk/examples/tmcmc_bimodal/bimodal.cpp
+iostream
+-
+iomanip
+-
+sstream
+-
+fstream
+-
+cmath
+-
+vector
+-
+string
+-
+algorithm
+-
+numeric
+-
+

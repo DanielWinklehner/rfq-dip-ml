@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuqtksampling.a  CMakeFiles/uqtksampling.dir/lhs.cpp.o CMakeFiles/uqtksampling.dir/qmc.cpp.o
+/usr/bin/ranlib libuqtksampling.a
